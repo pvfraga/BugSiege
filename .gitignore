@@ -1,0 +1,21 @@
+# ambiente virtual
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# PyCharm
+.idea/
+
+# build do PyInstaller
+build/
+dist/
+*.spec
+entrega/
+
+# banco de recordes (dados locais, nao vai para o GitHub)
+*.db
+*.sqlite3
